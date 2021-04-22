@@ -1,3 +1,4 @@
+import { FMElement } from "../model/fm-element";
 import { FMModel } from "../model/fm-model";
 
 /**
@@ -25,9 +26,10 @@ export class FMImporter {
         });
     }
     
-    private extractEntity(entity: any) {
-        console.log(entity)
-        // throw new Error("Method not implemented.");
+    private extractEntity(entity: {FM3: string, id: number}) {
+        console.log(entity.FM3)
+        console.log(this._model)
+        console.log(this._model._metamodel)
     }
 
 }
