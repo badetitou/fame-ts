@@ -1,4 +1,4 @@
-import { FameDescription, fameProperty } from "./annotation";
+import { FameDescription } from "./annotation";
 import { FMType } from "./fm-type";
 
 @FameDescription({

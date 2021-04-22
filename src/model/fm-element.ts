@@ -1,4 +1,4 @@
-import { FameDescription, fameProperty } from "./annotation";
+import { FameDescription } from "./annotation";
 
 @FameDescription({
     famePackage: { name: 'FM3'},

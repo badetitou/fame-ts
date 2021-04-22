@@ -1,4 +1,4 @@
-import { FameDescription, fameProperty } from "./annotation";
+import { FameDescription } from "./annotation";
 import { FMElement } from "./fm-element";
 import { FMProperty } from "./fm-property";
 import { FMType } from "./fm-type";
